@@ -14,32 +14,17 @@
 
 .parent {
   /* Stuff that matters */
-  display: grid;
+  height: 200px;
+  text-align: center;
   /* Style only */
   width: 200px;
-  height: 200px;
   border: solid 1px;
   margin: 50px;
-  border-radius: 50%;
 }
 
 .child {
-  margin: auto;
-  font-size: 18px;
-}
-
-.bullseye {
-  height: 5em;
-  width: 5em;
-  padding: 2.5em;
-  border: solid 2.5em #c00;
-  border-radius: 50%;
-  background-color: #c00;
-  background-clip: content-box;
-  transition: border-color 200ms ease-in, background-color 200ms ease-in;
-}
-
-.bullseye:hover {
-  border-color: #666;
-  background-color: #666;
+  /* Stuff that matters */
+  line-height: 200px;
+  /* Style only */
+  font-size: 36px;
 }
